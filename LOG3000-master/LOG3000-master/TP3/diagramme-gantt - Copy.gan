@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Développement d'une application de gestion de salle de Poly" company="Polytechnique" webLink="http://" view-date="2019-06-22" view-index="1" gantt-divider-location="929" resource-divider-location="1636" version="2.8.10" locale="en_CA">
+    <description/>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="Name" width="673" order="0"/>
+        <field id="tpd4" name="Begin date" width="123" order="1"/>
+        <field id="tpd5" name="End date" width="114" order="2"/>
+        <option id="taskLabelUp" value="resources"/>
+        <option id="color.recent"><![CDATA[#ff00ff #ff00cc #33ff33]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="878" order="0"/>
+        <field id="1" name="Default role" width="754" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="22" name="Plannification du projet" color="#8cb6ce" meeting="false" start="2019-05-06" duration="4" complete="0" thirdDate="2019-05-06" thirdDate-constraint="0" expand="true">
+            <task id="49" name="Rédiger le document de vision" color="#8cb6ce" meeting="false" start="2019-05-06" duration="1" complete="0" thirdDate="2019-05-07" thirdDate-constraint="0" expand="true">
+                <depend id="50" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="50" name="Rédiger le Product backlog" color="#8cb6ce" meeting="false" start="2019-05-07" duration="2" complete="0" thirdDate="2019-02-28" thirdDate-constraint="0" expand="true">
+                <depend id="109" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="109" name="Analyse et installation des logiciels et environnement nécesaires" color="#8cb6ce" meeting="false" start="2019-05-09" duration="1" complete="0" thirdDate="2019-03-25" thirdDate-constraint="0" expand="true">
+                <depend id="88" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="54" name="Premier Sprint" color="#ff00ff" meeting="true" start="2019-05-10" duration="0" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+            <task id="88" name="Rédiger la première version du Sprint Backlog" color="#8cb6ce" meeting="false" start="2019-05-10" duration="1" complete="0" thirdDate="2019-05-24" thirdDate-constraint="0" expand="true">
+                <depend id="336" type="2" difference="0" hardness="Strong"/>
+                <depend id="637" type="2" difference="0" hardness="Strong"/>
+                <depend id="638" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="133" name="Implémenter des tests" color="#8cb6ce" meeting="false" start="2019-05-13" duration="2" complete="0" thirdDate="2019-04-17" thirdDate-constraint="0" expand="true">
+            <task id="336" name="Rédiger un plan de test" color="#8cb6ce" meeting="false" start="2019-05-13" duration="1" complete="0" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true">
+                <depend id="142" type="2" difference="0" hardness="Strong"/>
+                <depend id="143" type="2" difference="0" hardness="Strong"/>
+                <depend id="144" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="638" name="Rédiger des cas de test" color="#8cb6ce" meeting="false" start="2019-05-13" duration="1" complete="0" thirdDate="2019-04-11" thirdDate-constraint="0" expand="true">
+                <depend id="142" type="2" difference="0" hardness="Strong"/>
+                <depend id="143" type="2" difference="0" hardness="Strong"/>
+                <depend id="144" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="637" name="Rédiger des scripts de test" color="#8cb6ce" meeting="false" start="2019-05-13" duration="1" complete="0" thirdDate="2019-04-11" thirdDate-constraint="0" expand="true">
+                <depend id="142" type="2" difference="0" hardness="Strong"/>
+                <depend id="143" type="2" difference="0" hardness="Strong"/>
+                <depend id="144" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="142" name="Implémenter des tests unitaires" color="#8cb6ce" meeting="false" start="2019-05-14" duration="1" complete="0" thirdDate="2019-04-17" thirdDate-constraint="0" expand="true">
+                <depend id="174" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="143" name="Implémenter des tests d'utilisabilités" color="#8cb6ce" meeting="false" start="2019-05-14" duration="1" complete="0" thirdDate="2019-05-27" thirdDate-constraint="0" expand="true">
+                <depend id="174" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="144" name="Implémenter des tests de régression" color="#8cb6ce" meeting="false" start="2019-05-14" duration="1" complete="0" thirdDate="2019-05-27" thirdDate-constraint="0" expand="true">
+                <depend id="174" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="145" name="Implémenter des composants" color="#8cb6ce" meeting="false" start="2019-05-15" duration="14" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+            <task id="174" name="Implémenter une première version du composant opérationnel" color="#8cb6ce" meeting="false" start="2019-05-15" duration="3" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="175" type="2" difference="0" hardness="Strong"/>
+                <depend id="176" type="2" difference="0" hardness="Strong"/>
+                <depend id="177" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="175" name="Effectuer les tests unitaires" color="#8cb6ce" meeting="false" start="2019-05-20" duration="1" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="178" type="2" difference="0" hardness="Strong"/>
+                <depend id="396" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="176" name="Effectuer les tests de régressions" color="#8cb6ce" meeting="false" start="2019-05-20" duration="1" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="178" type="2" difference="0" hardness="Strong"/>
+                <depend id="396" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="177" name="Effectuer les tests d'utilisabilité" color="#8cb6ce" meeting="false" start="2019-05-20" duration="1" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="178" type="2" difference="0" hardness="Strong"/>
+                <depend id="396" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="396" name="Rédaction d'un rapport des résultats des tests" color="#8cb6ce" meeting="false" start="2019-05-21" duration="1" complete="0" thirdDate="2019-05-21" thirdDate-constraint="0" expand="true">
+                <depend id="179" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="178" name="Corriger les bugs" color="#8cb6ce" meeting="false" start="2019-05-21" duration="3" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="179" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="179" name="Réviser le code d'un coéquipier et donner des feedbacks" color="#8cb6ce" meeting="false" start="2019-05-24" duration="1" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="180" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="180" name="Refactoring des classes" color="#8cb6ce" meeting="false" start="2019-05-27" duration="2" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="181" type="2" difference="0" hardness="Strong"/>
+                <depend id="182" type="2" difference="0" hardness="Strong"/>
+                <depend id="227" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="181" name="Effectuer les tests unitaires" color="#8cb6ce" meeting="false" start="2019-05-29" duration="1" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="183" type="2" difference="0" hardness="Strong"/>
+                <depend id="397" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="182" name="Effectuer les tests d'utilisabilité" color="#8cb6ce" meeting="false" start="2019-05-29" duration="1" complete="11" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="397" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="227" name="Effectuer les tests de régressions" color="#8cb6ce" meeting="false" start="2019-05-29" duration="1" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="183" type="2" difference="0" hardness="Strong"/>
+                <depend id="397" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="397" name="Mettre à jour le rapport des résultats des tests" color="#8cb6ce" meeting="false" start="2019-05-30" duration="1" complete="0" thirdDate="2019-06-05" thirdDate-constraint="0" expand="true">
+                <depend id="489" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="183" name="Corriger les bugs" color="#8cb6ce" meeting="false" start="2019-05-30" duration="3" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="232" type="2" difference="0" hardness="Strong"/>
+                <depend id="234" type="2" difference="0" hardness="Strong"/>
+                <depend id="489" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="489" name="Mettre à jour le Document d'architecture" color="#8cb6ce" meeting="false" start="2019-06-04" duration="1" complete="0" thirdDate="2019-06-04" thirdDate-constraint="0" expand="true">
+            <depend id="304" type="2" difference="0" hardness="Strong"/>
+            <depend id="590" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="849" name="Dernière modification de l'artefact &quot;Document d'architecture&quot;" color="#ff00ff" meeting="true" start="2019-06-04" duration="0" complete="0" thirdDate="2019-04-24" thirdDate-constraint="0" expand="true"/>
+        <task id="232" name="Mettre à jour et raffiner le product backlog" color="#8cb6ce" meeting="false" start="2019-06-04" duration="2" complete="0" thirdDate="2019-05-01" thirdDate-constraint="0" expand="true">
+            <depend id="304" type="2" difference="0" hardness="Strong"/>
+            <depend id="590" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="234" name="Rédiger l'artéfact des Problèmes" color="#8cb6ce" meeting="false" start="2019-06-04" duration="2" complete="0" thirdDate="2019-05-01" thirdDate-constraint="0" expand="true">
+            <depend id="304" type="2" difference="0" hardness="Strong"/>
+            <depend id="590" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="304" name="Réviser la version livrable du Build" color="#8cb6ce" meeting="false" start="2019-06-06" duration="2" complete="0" thirdDate="2019-06-12" thirdDate-constraint="0" expand="true">
+            <depend id="575" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="590" name="Implémenter des tests d'intégrations" color="#8cb6ce" meeting="false" start="2019-06-06" duration="1" complete="0" thirdDate="2019-06-06" thirdDate-constraint="0" expand="true">
+            <depend id="575" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="575" name="Intégration de chaque composants" color="#8cb6ce" meeting="false" start="2019-06-10" duration="3" complete="0" thirdDate="2019-04-22" thirdDate-constraint="0" expand="true">
+            <depend id="576" type="2" difference="0" hardness="Strong"/>
+            <depend id="594" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="576" name="Déployer l'application" color="#8cb6ce" meeting="false" start="2019-06-13" duration="1" complete="0" thirdDate="2019-04-22" thirdDate-constraint="0" expand="true">
+            <depend id="235" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="594" name="Mettre le rapport des résultats des tests" color="#8cb6ce" meeting="false" start="2019-06-13" duration="1" complete="0" thirdDate="2019-06-18" thirdDate-constraint="0" expand="true" cost-manual-value="50.0" cost-calculated="false">
+            <depend id="235" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="235" name="Présentation et remise du premier livrable: Sprint Backlog, Problèmes et Build" color="#8cb6ce" meeting="false" start="2019-06-14" duration="1" complete="0" thirdDate="2019-05-01" thirdDate-constraint="0" expand="true">
+            <depend id="648" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="642" name="Deuxième Sprint" color="#ff00ff" meeting="true" start="2019-06-17" duration="0" complete="0" thirdDate="2019-04-05" thirdDate-constraint="0" expand="true"/>
+        <task id="648" name="Rédiger la deuxième version du Sprint Backlog" color="#8cb6ce" meeting="false" start="2019-06-17" duration="1" complete="0" thirdDate="2019-05-24" thirdDate-constraint="0" expand="true">
+            <depend id="652" type="2" difference="0" hardness="Strong"/>
+            <depend id="654" type="2" difference="0" hardness="Strong"/>
+            <depend id="656" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="650" name="Implémenter des tests" color="#8cb6ce" meeting="false" start="2019-06-18" duration="2" complete="0" thirdDate="2019-04-17" thirdDate-constraint="0" expand="true">
+            <task id="652" name="Rédiger un plan de test" color="#8cb6ce" meeting="false" start="2019-06-18" duration="1" complete="0" thirdDate="2019-06-18" thirdDate-constraint="0" expand="true">
+                <depend id="658" type="2" difference="0" hardness="Strong"/>
+                <depend id="660" type="2" difference="0" hardness="Strong"/>
+                <depend id="662" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="654" name="Rédiger des cas de test" color="#8cb6ce" meeting="false" start="2019-06-18" duration="1" complete="0" thirdDate="2019-04-11" thirdDate-constraint="0" expand="true">
+                <depend id="658" type="2" difference="0" hardness="Strong"/>
+                <depend id="660" type="2" difference="0" hardness="Strong"/>
+                <depend id="662" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="656" name="Rédiger des scripts de test" color="#8cb6ce" meeting="false" start="2019-06-18" duration="1" complete="0" thirdDate="2019-04-11" thirdDate-constraint="0" expand="true">
+                <depend id="658" type="2" difference="0" hardness="Strong"/>
+                <depend id="660" type="2" difference="0" hardness="Strong"/>
+                <depend id="662" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="658" name="Implémenter des tests unitaires" color="#8cb6ce" meeting="false" start="2019-06-19" duration="1" complete="0" thirdDate="2019-04-17" thirdDate-constraint="0" expand="true">
+                <depend id="666" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="660" name="Implémenter des tests d'utilisabilités" color="#8cb6ce" meeting="false" start="2019-06-19" duration="1" complete="0" thirdDate="2019-05-27" thirdDate-constraint="0" expand="true">
+                <depend id="666" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="662" name="Implémenter des tests de régression" color="#8cb6ce" meeting="false" start="2019-06-19" duration="1" complete="0" thirdDate="2019-05-27" thirdDate-constraint="0" expand="true">
+                <depend id="666" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="664" name="Implémenter des composants" color="#8cb6ce" meeting="false" start="2019-06-20" duration="14" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+            <task id="666" name="Implémenter une première version du composant opérationnel" color="#8cb6ce" meeting="false" start="2019-06-20" duration="3" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="668" type="2" difference="0" hardness="Strong"/>
+                <depend id="670" type="2" difference="0" hardness="Strong"/>
+                <depend id="672" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="668" name="Effectuer les tests unitaires" color="#8cb6ce" meeting="false" start="2019-06-25" duration="1" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="674" type="2" difference="0" hardness="Strong"/>
+                <depend id="676" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="670" name="Effectuer les tests de régressions" color="#8cb6ce" meeting="false" start="2019-06-25" duration="1" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="674" type="2" difference="0" hardness="Strong"/>
+                <depend id="676" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="672" name="Effectuer les tests d'utilisabilité" color="#8cb6ce" meeting="false" start="2019-06-25" duration="1" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="674" type="2" difference="0" hardness="Strong"/>
+                <depend id="676" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="674" name="Mettre à jour le rapport des résultats des tests" color="#8cb6ce" meeting="false" start="2019-06-26" duration="1" complete="0" thirdDate="2019-06-26" thirdDate-constraint="0" expand="true">
+                <depend id="678" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="676" name="Corriger les bugs" color="#8cb6ce" meeting="false" start="2019-06-26" duration="3" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="678" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="678" name="Réviser le code d'un coéquipier et donner des feedbacks" color="#8cb6ce" meeting="false" start="2019-07-01" duration="1" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="680" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="680" name="Refactoring des classes" color="#8cb6ce" meeting="false" start="2019-07-02" duration="2" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="682" type="2" difference="0" hardness="Strong"/>
+                <depend id="684" type="2" difference="0" hardness="Strong"/>
+                <depend id="686" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="682" name="Effectuer les tests unitaires" color="#8cb6ce" meeting="false" start="2019-07-04" duration="1" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="688" type="2" difference="0" hardness="Strong"/>
+                <depend id="690" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="684" name="Effectuer les tests d'utilisabilité" color="#8cb6ce" meeting="false" start="2019-07-04" duration="1" complete="11" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="688" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="686" name="Effectuer les tests de régressions" color="#8cb6ce" meeting="false" start="2019-07-04" duration="1" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="688" type="2" difference="0" hardness="Strong"/>
+                <depend id="690" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="688" name="Mettre à jour le rapport des résultats des tests" color="#8cb6ce" meeting="false" start="2019-07-05" duration="1" complete="0" thirdDate="2019-06-05" thirdDate-constraint="0" expand="true">
+                <depend id="694" type="2" difference="0" hardness="Strong"/>
+                <depend id="696" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="690" name="Corriger les bugs" color="#8cb6ce" meeting="false" start="2019-07-05" duration="3" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="694" type="2" difference="0" hardness="Strong"/>
+                <depend id="696" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="694" name="Mettre à jour et raffiner le product backlog" color="#8cb6ce" meeting="false" start="2019-07-10" duration="2" complete="0" thirdDate="2019-05-01" thirdDate-constraint="0" expand="true">
+            <depend id="698" type="2" difference="0" hardness="Strong"/>
+            <depend id="700" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="696" name="Mettre à jour l'artéfact des Problèmes" color="#8cb6ce" meeting="false" start="2019-07-10" duration="2" complete="0" thirdDate="2019-05-01" thirdDate-constraint="0" expand="true">
+            <depend id="698" type="2" difference="0" hardness="Strong"/>
+            <depend id="700" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="698" name="Réviser la version livrable du Build" color="#8cb6ce" meeting="false" start="2019-07-12" duration="2" complete="0" thirdDate="2019-06-12" thirdDate-constraint="0" expand="true">
+            <depend id="702" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="700" name="Implémenter des tests d'intégrations" color="#8cb6ce" meeting="false" start="2019-07-12" duration="1" complete="0" thirdDate="2019-06-06" thirdDate-constraint="0" expand="true">
+            <depend id="702" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="702" name="Intégration de chaque composants" color="#8cb6ce" meeting="false" start="2019-07-16" duration="3" complete="0" thirdDate="2019-04-22" thirdDate-constraint="0" expand="true">
+            <depend id="704" type="2" difference="0" hardness="Strong"/>
+            <depend id="706" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="704" name="Déployer l'application" color="#8cb6ce" meeting="false" start="2019-07-19" duration="1" complete="0" thirdDate="2019-04-22" thirdDate-constraint="0" expand="true">
+            <depend id="708" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="706" name="Mettre à jour le rapport des résultats des tests" color="#8cb6ce" meeting="false" start="2019-07-19" duration="1" complete="0" thirdDate="2019-07-19" thirdDate-constraint="0" expand="true">
+            <depend id="708" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="708" name="Présentation et remise du deuxième livrable" color="#8cb6ce" meeting="false" start="2019-07-22" duration="1" complete="0" thirdDate="2019-05-01" thirdDate-constraint="0" expand="true">
+            <depend id="782" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="780" name="Troisième Sprint" color="#ff00cc" meeting="true" start="2019-07-23" duration="0" complete="0" thirdDate="2019-05-22" thirdDate-constraint="0" expand="true"/>
+        <task id="782" name="Rédiger la troisième version du Sprint Backlog" color="#8cb6ce" meeting="false" start="2019-07-23" duration="1" complete="0" thirdDate="2019-05-24" thirdDate-constraint="0" expand="true">
+            <depend id="786" type="2" difference="0" hardness="Strong"/>
+            <depend id="788" type="2" difference="0" hardness="Strong"/>
+            <depend id="790" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="784" name="Implémenter des tests" color="#8cb6ce" meeting="false" start="2019-07-24" duration="2" complete="0" thirdDate="2019-04-17" thirdDate-constraint="0" expand="true">
+            <task id="786" name="Rédiger un plan de test" color="#8cb6ce" meeting="false" start="2019-07-24" duration="1" complete="0" thirdDate="2019-06-18" thirdDate-constraint="0" expand="true">
+                <depend id="792" type="2" difference="0" hardness="Strong"/>
+                <depend id="794" type="2" difference="0" hardness="Strong"/>
+                <depend id="796" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="788" name="Rédiger des cas de test" color="#8cb6ce" meeting="false" start="2019-07-24" duration="1" complete="0" thirdDate="2019-04-11" thirdDate-constraint="0" expand="true">
+                <depend id="792" type="2" difference="0" hardness="Strong"/>
+                <depend id="794" type="2" difference="0" hardness="Strong"/>
+                <depend id="796" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="790" name="Rédiger des scripts de test" color="#8cb6ce" meeting="false" start="2019-07-24" duration="1" complete="0" thirdDate="2019-04-11" thirdDate-constraint="0" expand="true">
+                <depend id="792" type="2" difference="0" hardness="Strong"/>
+                <depend id="794" type="2" difference="0" hardness="Strong"/>
+                <depend id="796" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="792" name="Implémenter des tests unitaires" color="#8cb6ce" meeting="false" start="2019-07-25" duration="1" complete="0" thirdDate="2019-04-17" thirdDate-constraint="0" expand="true">
+                <depend id="800" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="794" name="Implémenter des tests d'utilisabilités" color="#8cb6ce" meeting="false" start="2019-07-25" duration="1" complete="0" thirdDate="2019-05-27" thirdDate-constraint="0" expand="true">
+                <depend id="800" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="796" name="Implémenter des tests de régression" color="#8cb6ce" meeting="false" start="2019-07-25" duration="1" complete="0" thirdDate="2019-05-27" thirdDate-constraint="0" expand="true">
+                <depend id="800" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="798" name="Implémenter des composants" color="#8cb6ce" meeting="false" start="2019-07-26" duration="14" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+            <task id="800" name="Implémenter une première version du composant opérationnel" color="#8cb6ce" meeting="false" start="2019-07-26" duration="3" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="802" type="2" difference="0" hardness="Strong"/>
+                <depend id="804" type="2" difference="0" hardness="Strong"/>
+                <depend id="806" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="802" name="Effectuer les tests unitaires" color="#8cb6ce" meeting="false" start="2019-07-31" duration="1" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="808" type="2" difference="0" hardness="Strong"/>
+                <depend id="810" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="804" name="Effectuer les tests de régressions" color="#8cb6ce" meeting="false" start="2019-07-31" duration="1" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="808" type="2" difference="0" hardness="Strong"/>
+                <depend id="810" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="806" name="Effectuer les tests d'utilisabilité" color="#8cb6ce" meeting="false" start="2019-07-31" duration="1" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="808" type="2" difference="0" hardness="Strong"/>
+                <depend id="810" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="808" name="Mettre à jour le rapport des résultats des tests" color="#8cb6ce" meeting="false" start="2019-08-01" duration="1" complete="0" thirdDate="2019-06-26" thirdDate-constraint="0" expand="true">
+                <depend id="812" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="810" name="Corriger les bugs" color="#8cb6ce" meeting="false" start="2019-08-01" duration="3" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="812" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="812" name="Réviser le code d'un coéquipier et donner des feedbacks" color="#8cb6ce" meeting="false" start="2019-08-06" duration="1" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="814" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="814" name="Refactoring des classes" color="#8cb6ce" meeting="false" start="2019-08-07" duration="2" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="816" type="2" difference="0" hardness="Strong"/>
+                <depend id="818" type="2" difference="0" hardness="Strong"/>
+                <depend id="820" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="816" name="Effectuer les tests unitaires" color="#8cb6ce" meeting="false" start="2019-08-09" duration="1" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="822" type="2" difference="0" hardness="Strong"/>
+                <depend id="824" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="818" name="Effectuer les tests d'utilisabilité" color="#8cb6ce" meeting="false" start="2019-08-09" duration="1" complete="11" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="822" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="820" name="Effectuer les tests de régressions" color="#8cb6ce" meeting="false" start="2019-08-09" duration="1" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="822" type="2" difference="0" hardness="Strong"/>
+                <depend id="824" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="822" name="Mettre à jour le rapport des résultats des tests" color="#8cb6ce" meeting="false" start="2019-08-12" duration="1" complete="0" thirdDate="2019-06-05" thirdDate-constraint="0" expand="true">
+                <depend id="826" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="824" name="Corriger les bugs" color="#8cb6ce" meeting="false" start="2019-08-12" duration="3" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                <depend id="826" type="2" difference="0" hardness="Strong"/>
+                <depend id="828" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="826" name="Mettre à jour et raffiner le product backlog" color="#8cb6ce" meeting="false" start="2019-08-15" duration="2" complete="0" thirdDate="2019-05-01" thirdDate-constraint="0" expand="true">
+            <depend id="830" type="2" difference="0" hardness="Strong"/>
+            <depend id="842" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="828" name="Mettre à jour l'artéfact des Problèmes" color="#8cb6ce" meeting="false" start="2019-08-15" duration="2" complete="0" thirdDate="2019-05-01" thirdDate-constraint="0" expand="true">
+            <depend id="830" type="2" difference="0" hardness="Strong"/>
+            <depend id="842" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="830" name="Réviser la version finale du livrable de l'artefact Build" color="#8cb6ce" meeting="false" start="2019-08-19" duration="1" complete="0" thirdDate="2019-06-12" thirdDate-constraint="0" expand="true">
+            <depend id="834" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="842" name="Réviser la version finale de l'artefact Plan et Resultat de tests" color="#8cb6ce" meeting="false" start="2019-08-19" duration="1" complete="0" thirdDate="2019-08-19" thirdDate-constraint="0" expand="true">
+            <depend id="834" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="852" name="Dernière version de l'artefact &quot;Build&quot;" color="#ff00ff" meeting="true" start="2019-08-20" duration="0" complete="0" thirdDate="2019-06-10" thirdDate-constraint="0" expand="true"/>
+        <task id="834" name="Intégration de chaque composants" color="#8cb6ce" meeting="false" start="2019-08-20" duration="2" complete="0" thirdDate="2019-04-22" thirdDate-constraint="0" expand="true">
+            <depend id="836" type="2" difference="0" hardness="Strong"/>
+            <depend id="845" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="836" name="Déployer l'application" color="#8cb6ce" meeting="false" start="2019-08-22" duration="1" complete="0" thirdDate="2019-04-22" thirdDate-constraint="0" expand="true">
+            <depend id="840" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="845" name="Rédiger un document explicatif sur le fonctionnemen de l'application" color="#8cb6ce" meeting="false" start="2019-08-22" duration="1" complete="0" thirdDate="2019-06-19" thirdDate-constraint="0" expand="true">
+            <depend id="840" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="840" name="Présentation et remise du livrable final" color="#8cb6ce" meeting="false" start="2019-08-23" duration="1" complete="0" thirdDate="2019-05-01" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Alice" function="2" contacts="" phone=""/>
+        <resource id="1" name="Bob" function="2" contacts="" phone=""/>
+        <resource id="2" name="Carlos" function="2" contacts="" phone=""/>
+        <resource id="3" name="Dan" function="1" contacts="" phone=""/>
+        <resource id="4" name="Farah" function="1" contacts="" phone=""/>
+        <resource id="5" name="Moi" function="3" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="50" resource-id="0" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="49" resource-id="0" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="109" resource-id="0" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="88" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="336" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="143" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="174" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="177" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="178" resource-id="0" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="179" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="180" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="182" resource-id="0" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="183" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="489" resource-id="0" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="304" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="575" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="576" resource-id="0" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="235" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="648" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="652" resource-id="0" function="2" responsible="true" load="50.0"/>
+        <allocation task-id="658" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="666" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="668" resource-id="0" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="674" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="678" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="680" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="682" resource-id="0" function="2" responsible="true" load="50.0"/>
+        <allocation task-id="688" resource-id="0" function="2" responsible="true" load="50.0"/>
+        <allocation task-id="694" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="698" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="702" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="704" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="708" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="782" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="788" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="796" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="800" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="804" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="822" resource-id="0" function="2" responsible="true" load="50.0"/>
+        <allocation task-id="824" resource-id="0" function="2" responsible="true" load="50.0"/>
+        <allocation task-id="828" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="842" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="834" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="845" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="840" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="654" resource-id="0" function="2" responsible="true" load="50.0"/>
+        <allocation task-id="686" resource-id="0" function="2" responsible="true" load="50.0"/>
+        <allocation task-id="690" resource-id="0" function="2" responsible="true" load="50.0"/>
+        <allocation task-id="50" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="49" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="109" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="88" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="638" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="144" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="174" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="176" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="178" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="179" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="180" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="227" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="183" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="489" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="590" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="575" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="576" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="235" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="682" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="688" resource-id="1" function="2" responsible="true" load="50.0"/>
+        <allocation task-id="696" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="698" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="708" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="782" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="790" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="792" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="800" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="804" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="808" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="814" resource-id="1" function="2" responsible="true" load="125.0"/>
+        <allocation task-id="822" resource-id="1" function="2" responsible="true" load="50.0"/>
+        <allocation task-id="824" resource-id="1" function="2" responsible="true" load="50.0"/>
+        <allocation task-id="826" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="830" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="834" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="836" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="840" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="704" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="702" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="680" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="678" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="690" resource-id="1" function="2" responsible="true" load="50.0"/>
+        <allocation task-id="820" resource-id="1" function="2" responsible="true" load="50.0"/>
+        <allocation task-id="812" resource-id="1" function="2" responsible="true" load="125.0"/>
+        <allocation task-id="818" resource-id="1" function="2" responsible="true" load="50.0"/>
+        <allocation task-id="49" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="50" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="109" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="88" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="637" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="144" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="174" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="176" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="178" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="179" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="180" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="227" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="183" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="232" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="590" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="575" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="576" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="235" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="648" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="656" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="660" resource-id="2" function="2" responsible="true" load="50.0"/>
+        <allocation task-id="666" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="672" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="676" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="678" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="680" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="684" resource-id="2" function="2" responsible="true" load="50.0"/>
+        <allocation task-id="690" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="696" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="700" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="702" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="708" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="782" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="790" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="792" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="800" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="806" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="810" resource-id="2" function="2" responsible="true" load="50.0"/>
+        <allocation task-id="812" resource-id="2" function="2" responsible="true" load="125.0"/>
+        <allocation task-id="814" resource-id="2" function="2" responsible="true" load="125.0"/>
+        <allocation task-id="818" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="824" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="828" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="842" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="834" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="845" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="840" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="704" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="658" resource-id="2" function="2" responsible="true" load="50.0"/>
+        <allocation task-id="686" resource-id="2" function="2" responsible="true" load="50.0"/>
+        <allocation task-id="808" resource-id="2" function="2" responsible="true" load="50.0"/>
+        <allocation task-id="49" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="50" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="109" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="88" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="336" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="142" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="174" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="175" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="396" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="179" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="180" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="181" resource-id="3" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="397" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="234" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="304" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="575" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="594" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="235" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="648" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="654" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="662" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="666" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="670" resource-id="3" function="1" responsible="false" load="50.0"/>
+        <allocation task-id="676" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="694" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="700" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="702" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="706" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="708" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="782" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="786" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="794" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="800" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="802" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="810" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="812" resource-id="3" function="1" responsible="false" load="125.0"/>
+        <allocation task-id="814" resource-id="3" function="1" responsible="false" load="125.0"/>
+        <allocation task-id="816" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="824" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="826" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="830" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="834" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="836" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="840" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="668" resource-id="3" function="1" responsible="false" load="50.0"/>
+        <allocation task-id="50" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="109" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="88" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="638" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="142" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="174" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="175" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="396" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="179" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="180" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="181" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="397" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="234" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="304" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="575" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="594" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="235" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="648" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="652" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="662" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="666" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="670" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="676" resource-id="4" function="1" responsible="false" load="50.0"/>
+        <allocation task-id="694" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="700" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="702" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="706" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="708" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="782" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="786" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="794" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="800" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="802" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="810" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="812" resource-id="4" function="1" responsible="false" load="125.0"/>
+        <allocation task-id="814" resource-id="4" function="1" responsible="false" load="125.0"/>
+        <allocation task-id="816" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="824" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="826" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="830" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="834" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="836" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="840" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="674" resource-id="4" function="1" responsible="true" load="50.0"/>
+        <allocation task-id="49" resource-id="5" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="50" resource-id="5" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="177" resource-id="5" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="182" resource-id="5" function="3" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations>
+        <vacation start="2019-08-01" end="2019-08-10" resourceid="0"/>
+        <vacation start="2019-06-17" end="2019-07-01" resourceid="1"/>
+        <vacation start="2019-07-01" end="2019-07-08" resourceid="3"/>
+        <vacation start="2019-07-01" end="2019-07-08" resourceid="4"/>
+    </vacations>
+    <previous>
+        <previous-tasks name="Etat de reference">
+            <previous-task id="22" start="2019-05-06" duration="4" meeting="false" super="true"/>
+            <previous-task id="49" start="2019-05-06" duration="1" meeting="false" super="false"/>
+            <previous-task id="50" start="2019-05-07" duration="2" meeting="false" super="false"/>
+            <previous-task id="109" start="2019-05-09" duration="1" meeting="false" super="false"/>
+            <previous-task id="54" start="2019-05-10" duration="0" meeting="true" super="true"/>
+            <previous-task id="88" start="2019-05-10" duration="1" meeting="false" super="false"/>
+            <previous-task id="133" start="2019-05-13" duration="2" meeting="false" super="true"/>
+            <previous-task id="336" start="2019-05-13" duration="1" meeting="false" super="false"/>
+            <previous-task id="638" start="2019-05-13" duration="1" meeting="false" super="false"/>
+            <previous-task id="637" start="2019-05-13" duration="1" meeting="false" super="false"/>
+            <previous-task id="142" start="2019-05-14" duration="1" meeting="false" super="false"/>
+            <previous-task id="143" start="2019-05-14" duration="1" meeting="false" super="false"/>
+            <previous-task id="144" start="2019-05-14" duration="1" meeting="false" super="false"/>
+            <previous-task id="145" start="2019-05-15" duration="14" meeting="false" super="true"/>
+            <previous-task id="174" start="2019-05-15" duration="3" meeting="false" super="false"/>
+            <previous-task id="175" start="2019-05-20" duration="1" meeting="false" super="false"/>
+            <previous-task id="176" start="2019-05-20" duration="1" meeting="false" super="false"/>
+            <previous-task id="177" start="2019-05-20" duration="1" meeting="false" super="false"/>
+            <previous-task id="396" start="2019-05-21" duration="1" meeting="false" super="false"/>
+            <previous-task id="178" start="2019-05-21" duration="3" meeting="false" super="false"/>
+            <previous-task id="179" start="2019-05-24" duration="1" meeting="false" super="false"/>
+            <previous-task id="180" start="2019-05-27" duration="2" meeting="false" super="false"/>
+            <previous-task id="181" start="2019-05-29" duration="1" meeting="false" super="false"/>
+            <previous-task id="182" start="2019-05-29" duration="1" meeting="false" super="false"/>
+            <previous-task id="227" start="2019-05-29" duration="1" meeting="false" super="false"/>
+            <previous-task id="397" start="2019-05-30" duration="1" meeting="false" super="false"/>
+            <previous-task id="183" start="2019-05-30" duration="3" meeting="false" super="false"/>
+            <previous-task id="489" start="2019-06-04" duration="1" meeting="false" super="false"/>
+            <previous-task id="849" start="2019-06-04" duration="0" meeting="true" super="false"/>
+            <previous-task id="232" start="2019-06-04" duration="2" meeting="false" super="false"/>
+            <previous-task id="234" start="2019-06-04" duration="2" meeting="false" super="false"/>
+            <previous-task id="304" start="2019-06-06" duration="2" meeting="false" super="false"/>
+            <previous-task id="590" start="2019-06-06" duration="1" meeting="false" super="false"/>
+            <previous-task id="575" start="2019-06-10" duration="3" meeting="false" super="false"/>
+            <previous-task id="576" start="2019-06-13" duration="1" meeting="false" super="false"/>
+            <previous-task id="594" start="2019-06-13" duration="1" meeting="false" super="false"/>
+            <previous-task id="235" start="2019-06-14" duration="1" meeting="false" super="false"/>
+            <previous-task id="642" start="2019-06-17" duration="0" meeting="true" super="false"/>
+            <previous-task id="648" start="2019-06-17" duration="1" meeting="false" super="false"/>
+            <previous-task id="650" start="2019-06-18" duration="2" meeting="false" super="true"/>
+            <previous-task id="652" start="2019-06-18" duration="1" meeting="false" super="false"/>
+            <previous-task id="654" start="2019-06-18" duration="1" meeting="false" super="false"/>
+            <previous-task id="656" start="2019-06-18" duration="1" meeting="false" super="false"/>
+            <previous-task id="658" start="2019-06-19" duration="1" meeting="false" super="false"/>
+            <previous-task id="660" start="2019-06-19" duration="1" meeting="false" super="false"/>
+            <previous-task id="662" start="2019-06-19" duration="1" meeting="false" super="false"/>
+            <previous-task id="664" start="2019-06-20" duration="14" meeting="false" super="true"/>
+            <previous-task id="666" start="2019-06-20" duration="3" meeting="false" super="false"/>
+            <previous-task id="668" start="2019-06-25" duration="1" meeting="false" super="false"/>
+            <previous-task id="670" start="2019-06-25" duration="1" meeting="false" super="false"/>
+            <previous-task id="672" start="2019-06-25" duration="1" meeting="false" super="false"/>
+            <previous-task id="674" start="2019-06-26" duration="1" meeting="false" super="false"/>
+            <previous-task id="676" start="2019-06-26" duration="3" meeting="false" super="false"/>
+            <previous-task id="678" start="2019-07-01" duration="1" meeting="false" super="false"/>
+            <previous-task id="680" start="2019-07-02" duration="2" meeting="false" super="false"/>
+            <previous-task id="682" start="2019-07-04" duration="1" meeting="false" super="false"/>
+            <previous-task id="684" start="2019-07-04" duration="1" meeting="false" super="false"/>
+            <previous-task id="686" start="2019-07-04" duration="1" meeting="false" super="false"/>
+            <previous-task id="688" start="2019-07-05" duration="1" meeting="false" super="false"/>
+            <previous-task id="690" start="2019-07-05" duration="3" meeting="false" super="false"/>
+            <previous-task id="694" start="2019-07-10" duration="2" meeting="false" super="false"/>
+            <previous-task id="696" start="2019-07-10" duration="2" meeting="false" super="false"/>
+            <previous-task id="698" start="2019-07-12" duration="2" meeting="false" super="false"/>
+            <previous-task id="700" start="2019-07-12" duration="1" meeting="false" super="false"/>
+            <previous-task id="702" start="2019-07-16" duration="3" meeting="false" super="false"/>
+            <previous-task id="704" start="2019-07-19" duration="1" meeting="false" super="false"/>
+            <previous-task id="706" start="2019-07-19" duration="1" meeting="false" super="false"/>
+            <previous-task id="708" start="2019-07-22" duration="1" meeting="false" super="false"/>
+            <previous-task id="780" start="2019-07-23" duration="0" meeting="true" super="false"/>
+            <previous-task id="782" start="2019-07-23" duration="1" meeting="false" super="false"/>
+            <previous-task id="784" start="2019-07-24" duration="2" meeting="false" super="true"/>
+            <previous-task id="786" start="2019-07-24" duration="1" meeting="false" super="false"/>
+            <previous-task id="788" start="2019-07-24" duration="1" meeting="false" super="false"/>
+            <previous-task id="790" start="2019-07-24" duration="1" meeting="false" super="false"/>
+            <previous-task id="792" start="2019-07-25" duration="1" meeting="false" super="false"/>
+            <previous-task id="794" start="2019-07-25" duration="1" meeting="false" super="false"/>
+            <previous-task id="796" start="2019-07-25" duration="1" meeting="false" super="false"/>
+            <previous-task id="798" start="2019-07-26" duration="14" meeting="false" super="true"/>
+            <previous-task id="800" start="2019-07-26" duration="3" meeting="false" super="false"/>
+            <previous-task id="802" start="2019-07-31" duration="1" meeting="false" super="false"/>
+            <previous-task id="804" start="2019-07-31" duration="1" meeting="false" super="false"/>
+            <previous-task id="806" start="2019-07-31" duration="1" meeting="false" super="false"/>
+            <previous-task id="808" start="2019-08-01" duration="1" meeting="false" super="false"/>
+            <previous-task id="810" start="2019-08-01" duration="3" meeting="false" super="false"/>
+            <previous-task id="812" start="2019-08-06" duration="1" meeting="false" super="false"/>
+            <previous-task id="814" start="2019-08-07" duration="2" meeting="false" super="false"/>
+            <previous-task id="816" start="2019-08-09" duration="1" meeting="false" super="false"/>
+            <previous-task id="818" start="2019-08-09" duration="1" meeting="false" super="false"/>
+            <previous-task id="820" start="2019-08-09" duration="1" meeting="false" super="false"/>
+            <previous-task id="822" start="2019-08-12" duration="1" meeting="false" super="false"/>
+            <previous-task id="824" start="2019-08-12" duration="3" meeting="false" super="false"/>
+            <previous-task id="826" start="2019-08-15" duration="2" meeting="false" super="false"/>
+            <previous-task id="828" start="2019-08-15" duration="2" meeting="false" super="false"/>
+            <previous-task id="830" start="2019-08-19" duration="1" meeting="false" super="false"/>
+            <previous-task id="842" start="2019-08-19" duration="1" meeting="false" super="false"/>
+            <previous-task id="852" start="2019-08-20" duration="0" meeting="true" super="false"/>
+            <previous-task id="834" start="2019-08-20" duration="2" meeting="false" super="false"/>
+            <previous-task id="836" start="2019-08-22" duration="1" meeting="false" super="false"/>
+            <previous-task id="845" start="2019-08-22" duration="1" meeting="false" super="false"/>
+            <previous-task id="840" start="2019-08-23" duration="1" meeting="false" super="false"/>
+        </previous-tasks>
+    </previous>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Stagiaire"/>
+        <role id="2" name="Membre de l'équipe de service informatique de Poly"/>
+        <role id="3" name="Chef d'équipe"/>
+    </roles>
+</project>
